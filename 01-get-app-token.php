@@ -63,8 +63,8 @@ if ($response->getStatusCode() !== 200) {
     printf(
         "%s\n%s\n%s\n%s\n\n",
         $response->access_token,
-        $response->token_type,
-        $response->expires_in,
+    //  $response->token_type,
+       //  $response->expires_in,
         $response->refresh_token
     );
 }
