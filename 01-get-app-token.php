@@ -1,4 +1,5 @@
 <?php
+ini_set("display_errors", 1);
 /**
  * Copyright 2017 David T. Sadler
  *
