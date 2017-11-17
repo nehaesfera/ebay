@@ -49,7 +49,7 @@ $service = new Services\OAuthService([
  * Create the request object.
  */
 $request = new Types\GetUserTokenRestRequest();
-$request->code = '<AUTHORIZATION CODE>';
+$request->code = $_GET['code'];
 
 /**
  * Send the request.
