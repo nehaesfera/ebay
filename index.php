@@ -20,7 +20,7 @@ ini_set("display_errors", 1);
 /**
  * Include the SDK by using the autoloader from Composer.
  */
-require __DIR__.'/../vendor/autoload.php';
+require __DIR__.'/vendor/autoload.php';
 require __DIR__.'/slim-app.php';
 
 $app = buildSlimApp();
