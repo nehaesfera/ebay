@@ -27,7 +27,7 @@ require __DIR__.'/vendor/autoload.php';
  * Ensure that you have edited the configuration.php file
  * to include your application keys.
  */
-$config = require __DIR__.'keys.php';
+$config = require __DIR__.'/keys.php';
 
 /**
  * The namespaces provided by the SDK.
