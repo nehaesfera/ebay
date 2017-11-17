@@ -18,7 +18,7 @@
 /**
  * Include the SDK by using the autoloader from Composer.
  */
-require __DIR__.'/../vendor/autoload.php';
+require __DIR__.'/vendor/autoload.php';
 
 /**
  * Include the configuration values.
