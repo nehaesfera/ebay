@@ -36,7 +36,7 @@ function buildSlimApp() {
     $container = new \Slim\Container();
 
     $container['view'] = function ($container) {
-        $view = new \Slim\Views\Twig(__DIR__.'/templates', [
+        $view = new \Slim\Views\Twig(__DIR__.'/templets', [
             'cache' => false
         ]);
 
